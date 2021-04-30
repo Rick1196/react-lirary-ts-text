@@ -1,0 +1,26 @@
+.Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.TextInput {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    color: #121212;
+    font-size: 28px;
+    align-self: stretch;
+    flex: 1 1 0%;
+    border: none;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+}
+
+.Rect2 {
+    height: 3px;
+    background-color: rgba(0, 0, 0, 1);
+    align-self: stretch;
+}
