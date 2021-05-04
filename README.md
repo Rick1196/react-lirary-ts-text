@@ -2,6 +2,31 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Scripts Verdaccio
+
+### Install library on proyects
+
+yarn add --registry https://34.67.34.118:4873 library-name
+
+### Add User
+
+npm adduser --registry https://34.67.34.118:4873/
+
+### Publish / Unpublish library
+
+npm publish --registry https://34.67.34.118:4873/ --force
+npm unpublish --registry https://34.67.34.118:4873/ --force
+
+### Bypass ssl
+npm config set strict-ssl false
+
+if you are using yarn with
+```
+    yarn config set "strict-ssl" false
+
+
+```
+
 ## Available Scripts
 
 In the project directory, you can run:

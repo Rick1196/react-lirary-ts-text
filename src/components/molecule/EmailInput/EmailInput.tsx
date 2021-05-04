@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import EmailInputType from './EmailInputType';
-import '../../styles/components/EmailInput.scss';
+import '../../../styles/components/EmailInput.scss';
 
 export class EmailInputComponent extends Component<EmailInputType, {}> {
     render() {

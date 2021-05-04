@@ -74,7 +74,7 @@ function styleInject(css, ref) {
   }
 }
 
-var css_248z = ".Container {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  position: relative; }\n\n.TextInput {\n  font-family: Roboto;\n  font-style: normal;\n  font-weight: 400;\n  color: #121212;\n  font-size: 28px;\n  align-self: stretch;\n  flex: 1 1 0%;\n  border: none;\n  background: transparent;\n  display: flex;\n  flex-direction: column; }\n\n.Rect2 {\n  height: 3px;\n  background-color: black;\n  align-self: stretch; }\n";
+var css_248z = ".Container {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  position: relative;\n}\n\n.TextInput {\n  font-family: Roboto;\n  font-style: normal;\n  font-weight: 400;\n  color: #121212;\n  font-size: 28px;\n  align-self: stretch;\n  flex: 1 1 0%;\n  border: none;\n  background: transparent;\n  display: flex;\n  flex-direction: column;\n}\n\n.Rect2 {\n  height: 3px;\n  background-color: black;\n  align-self: stretch;\n}";
 styleInject(css_248z);
 
 var EmailInputComponent = /** @class */ (function (_super) {

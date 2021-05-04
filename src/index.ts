@@ -1,1 +1,1 @@
-export { default as EmailInputComponent } from './components/EmailInput/EmailInput';
+export { default as EmailInputComponent } from './components/molecule/EmailInput/EmailInput';
